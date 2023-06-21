@@ -5,16 +5,17 @@
  *@a:the integer to compute its absolute value.
  *Return:returns the abs value.
  *
- */ 
+ */
 int _abs(int a)
 {
 	int c = a;
-	int abs;
+	int absv;
 
 	if (c < 0)
 	{
 		c = c * (-1);
 	}
-	abs = c;
-	return (abs);
+	absv = c;
+	return (absv);
 }
+
